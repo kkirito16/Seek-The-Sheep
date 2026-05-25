@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 6048b52d3d96a924cabede7e2efbff44
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 86fee8b7e7a9314459762a78a60fde8f
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 588b9e9a8fb58c344b886e3e30037c04
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 6908966186099b9469ca6dada4fc77a0
+  - enabled: 1
+    path: Assets/Scenes/Level-ice.unity
+    guid: 1f84069710395544f8c5ab75f775660e
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: e8bc7f3f7bd94454286bd4f18bb9ba57
+  - enabled: 1
+    path: Assets/Scenes/Level-dark night.unity
+    guid: e734d59d1f572624b82fae7b1b550b7e
+  - enabled: 1
+    path: Assets/Scenes/Level-ice-night.unity
+    guid: 73c6c6c45c36a4a4b8fd5a6c72801984
+  - enabled: 1
+    path: Assets/Scenes/LevelCooperation.unity
+    guid: cdd9ee8820e1d574da4663302d608216
+  - enabled: 1
+    path: Assets/Scenes/LevelConfused.unity
+    guid: fc0f00de88fc6cd47bbec7d7c964a972
+  - enabled: 1
+    path: Assets/Scenes/Level-SheepFindMan.unity
+    guid: 28aa755bc196d094b9e9639b7a822e57
+  - enabled: 1
+    path: Assets/Scenes/HiddenLevel.unity
+    guid: df42f00033331a44487b2d0159e13d9a
+  - enabled: 0
+    path: Assets/Scenes/Level4.unity
+    guid: 72d1c826717235140a04bc24997b1b60
+  m_configObjects: {}

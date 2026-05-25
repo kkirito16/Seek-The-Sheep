@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e4e7f2e39206d4aa6552b4300f94dd, type: 3}
+  m_Name: LevelState_ISO
+  m_EditorClassIdentifier: 
+  levelState: 00000000000000000000
+  Dialogs:
+  - name: Barbara
+    findSheepDialog: Poor babe, mama is coming soon.
+    enterLevelDialog: null
+    sheep: {fileID: 2800000, guid: 8634977b70cc9424aa21c7da1e00567c, type: 3}
+  - name: Helena
+    findSheepDialog: Found you finally...child is waiting~
+    enterLevelDialog: null
+    sheep: {fileID: 2800000, guid: 95c302ec71b7a5146a9e3b307329561b, type: 3}
+  - name: Fred
+    findSheepDialog: Fred! I told you the ice is dangerous,especially for a 200 pound-naughty
+      boy.
+    enterLevelDialog: "Christ\uFF0Cthis child is such a troublemaker."
+    sheep: {fileID: 2800000, guid: 4569cea5f6fd19847afdf7f856508fe0, type: 3}
+  - name: 'Jimmy '
+    findSheepDialog: You find no such delicious carrot leaving home huh?
+    enterLevelDialog: Jimmy is always on the hunt for something to eat.
+    sheep: {fileID: 2800000, guid: 14515dc8329949a4186cdd468399f4e8, type: 3}
+  - name: Nick
+    findSheepDialog: "Didn\u2019t sleep well buddy?"
+    enterLevelDialog: "It\u2019s getting dark,but I could have my torch to light."
+    sheep: {fileID: 2800000, guid: c2e53dff925af4f4a9d2abe0ca64e13f, type: 3}
+  - name: Mia
+    findSheepDialog: Would there be anything I could help you, lady?
+    enterLevelDialog: Mia seems like seeking for someone.
+    sheep: {fileID: 2800000, guid: 01dde336065fb494d89b53c11bdaa57d, type: 3}
+  - name: Nick
+    findSheepDialog: "I\u2019m too old for hide and seek, Nick."
+    enterLevelDialog: Nick? A second, did I just see you on the ice? Nick?
+    sheep: {fileID: 2800000, guid: c2e53dff925af4f4a9d2abe0ca64e13f, type: 3}
+  - name: Jimmy
+    findSheepDialog: null
+    enterLevelDialog: Jimmy, is that you again?
+    sheep: {fileID: 2800000, guid: 14515dc8329949a4186cdd468399f4e8, type: 3}
+  - name: Simon
+    findSheepDialog: null
+    enterLevelDialog: "Barbara,coming for me\uFF01"
+    sheep: {fileID: 2800000, guid: c43820ad78cf4c447ae256e063cc5c4c, type: 3}
+  - name: Helena
+    findSheepDialog: Found you finally.child is waiting~
+    enterLevelDialog: Who am I, where are my sheep?
+    sheep: {fileID: 2800000, guid: 95c302ec71b7a5146a9e3b307329561b, type: 3}
+  buttonImgs:
+  - bloom: {fileID: 21300000, guid: 48e079916d60e71418eb28b981328563, type: 3}
+    grey: {fileID: 21300000, guid: 40ffaec96781b274d84f2c497ff0403b, type: 3}
+  - bloom: {fileID: 21300000, guid: 295e30776c4e6fb428030a0110daf127, type: 3}
+    grey: {fileID: 21300000, guid: 29ea6d88d2776e945abfe2ac4e386e01, type: 3}
+  - bloom: {fileID: 21300000, guid: 54c659653ade66849b84fc387ee338b9, type: 3}
+    grey: {fileID: 21300000, guid: 4b4e733c33d7bbb4386a8e6fe9def724, type: 3}
+  - bloom: {fileID: 21300000, guid: 07b47d6a555972c49986e4793d7dc667, type: 3}
+    grey: {fileID: 21300000, guid: c2727551f7ac7b44ea0e84100816dc89, type: 3}
+  - bloom: {fileID: 21300000, guid: de6dcf85a65240e4cabae533dd99229d, type: 3}
+    grey: {fileID: 21300000, guid: b8573bb98c29a5b448421ede1c2695b9, type: 3}
+  - bloom: {fileID: 21300000, guid: e14885fb05cee5e48b5d388c013d0633, type: 3}
+    grey: {fileID: 21300000, guid: d8248db27349b7b448d091956ea30ab0, type: 3}
+  - bloom: {fileID: 21300000, guid: b90d9ff137de5c34892af541675d4ae0, type: 3}
+    grey: {fileID: 21300000, guid: b95eb0f7019a44f47b6c22b0b96785ae, type: 3}
+  - bloom: {fileID: 21300000, guid: 06f21f651d9e63842a33cb8532054460, type: 3}
+    grey: {fileID: 21300000, guid: a71ad3c1279d02b44b9d61d7c32bfc4a, type: 3}
+  - bloom: {fileID: 21300000, guid: 12b6ddc19f7b69f478bbdd2ac04f547a, type: 3}
+    grey: {fileID: 21300000, guid: 7ad25ad550a8b204b82dfc83284418fb, type: 3}
+  - bloom: {fileID: 21300000, guid: 95c302ec71b7a5146a9e3b307329561b, type: 3}
+    grey: {fileID: 21300000, guid: 95c302ec71b7a5146a9e3b307329561b, type: 3}
