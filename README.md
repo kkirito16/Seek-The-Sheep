@@ -120,6 +120,20 @@ Seek5.0/
 
 在 Unity 菜单 **File → Build Settings** 中选择目标平台并构建。构建产物会输出到本地 `Build/` 目录，**不会**提交到 Git 仓库。
 
+### 命令行构建 Windows 版
+
+项目提供 `Assets/Editor/BuildScript.cs`，可在无界面模式下打包：
+
+```bash
+/Applications/Unity/Hub/Editor/6000.0.30f1/Unity.app/Contents/MacOS/Unity \
+  -batchmode -quit -nographics \
+  -projectPath "$(pwd)" \
+  -executeMethod BuildScript.BuildWindows \
+  -logFile Logs/build.log
+```
+
+输出路径：`Build/Windows_New/WhereIsMySheep.exe`（已在 `.gitignore` 中忽略）。
+
 ## 许可证
 
 未在仓库中声明许可证。如需开源或二次分发，请自行补充 LICENSE 文件。

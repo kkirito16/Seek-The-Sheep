@@ -63,6 +63,8 @@ Thumbs.db
 *.VC.db
 
 # Misc local / cache
+*.bak
+*.bak.meta
 connectwebgl.zip
 webgl_sharing
 sysinfo.txt
